@@ -9,7 +9,7 @@
 
 /**************asignación de fondo del formulario*********************/
 body{
-    background:url("/proyecto-2-codigo-latam/img/cine.jpg");
+    background:url("/img/cine.jpg");
     background-position: center;
     background-size: cover;
 }

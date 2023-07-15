@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+/**************cuerpo de la pagina***************************/
+body{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    font-family: "ubuntu", sans-serif;
+    background-color: rgba(199, 199, 255, 0.591);
+}
+
+/***********nombre del curriculum************/
+h1{
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 6px;
+}
+
+/********secciones del curriculum************/
+h2{
+    background-color: rgb(34, 34, 201);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 6px;
+}
+
+/*********experiencias laborales***********/
+h3{
+    font-size: 18px;
+    padding: 5px 6px;
+}
+
+/*********atribuciones laborales*********************/
+p{
+    font-size: 17px;
+    padding: 5px 6px;
+}
+
+/**********cursos y certificaciones******************/
+li{
+    font-size: 17px;
+    padding: 5px 6px;
+}
+
+/**********enlaces que contienen las paginas de las empresas*********/
+a{
+    text-decoration: none;
+    padding: 5px 6px;
+}
+
+/**********clase que contiene los enlaces a github y linkedin*******************/
+.center-subtitle{
+    text-align: center;
+    list-style: none;
+    font-weight: 300;
+}
+
+/**********enlaces a github y linkedin*******/
+.center-subtitle a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(6, 6, 181);
+    text-decoration: none;
+    padding: 5px 6px;
+}
