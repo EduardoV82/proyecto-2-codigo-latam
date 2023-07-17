@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduardo González</title>
+  <script src="https://kit.fontawesome.com/66c0f72b01.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/login.css">
+
+  <script src="/js/login.js"></script>
+</head>
+<body>
+  <div id="login-container">
+    <h1 id="registrate">Registrate</h1>
+    <form action="">
+      <label for="name">Nombre Completo</label>
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="Correo Eléctronico" autocomplete="off" required>
+      <label for="password">Contrasena</label>
+      <input type="password" name="password" id="password" placeholder="Contrasena" required>
+      <input type="submit" value="Registrate">
+    </form>
+    <div id="social-container">
+      <p>O Registrese con sus redes sociales</p>
+      <i class="fa fa-facebook-f"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <div id="register-container">
+      <p>Ya tiene cuenta?</p>
+      <a href="#login">Accede a tu Cuenta</a>
+    </div>
+  </div>
+  <div id="login-container">
+    <h1 id="login">Login</h1>
+    <form>
+      <label for="email">E-mail</label>
+      <input type="text" name="text" id="email" placeholder="Correo Eléctronico" autocomplete="off">
+      <label for="password">Contrasena</label>
+      <input type="password" name="password" id="password" placeholder="Contrasena">
+      <a href="/recuperacion.html" id="forgot-pass">Olvido la Contrasena?</a>
+      <input type="submit" onclick="logar(); return false">
+    </form>
+    <div id="social-container">
+      <p>O Accese por sus redes sociales</p>
+      <i class="fa fa-facebook-f"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <div id="register-container">
+      <p>Aún no tiene cuenta?</p>
+      <a href="#registrate">Registrate</a>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
