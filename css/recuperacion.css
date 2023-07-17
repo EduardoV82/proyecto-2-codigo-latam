@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url('/img/cine.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(40px 40px 80px #999999);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.container1{
+    background-color: #FFF;
+    float: left;
+    width: 60vh;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    margin-left: 15rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container2{
+    background-color: #FFF;
+    float: right;
+    width: 60vh;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    margin-right: 15rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label, input {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: .9rem;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+
+input {
+    display: block;
+    border-bottom: 2px solid #06acac;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #06acac;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #06acac;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #068a8a;
+    box-shadow: 2px 2px #068a8a;
+    transition: .5s;
+}
+
+input[type="checkbox"]{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #06acac;
+    font-weight: bold;
+}
+
