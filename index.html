@@ -1,206 +1,112 @@
-<!doctype html>
-<html lang="es">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Eduardo Gonzalez</title>
-<!----enlaces css, normalize, favicon, fontawesome y google fonts-->
-      <link rel="stylesheet" href="/css/normalize.css">
-      <link rel="stylesheet" href="/css/estilo.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Dongle&family=Inter&family=Lato:wght@400;700&family=Montserrat:ital@0;1&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400&family=Roboto:ital@1&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&family=Ysabeau:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-      <link rel="icon" type="image/png" sizes="32x32" href="./img/logo-video.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="./img/logo-video.png">
-      <script src="https://kit.fontawesome.com/66c0f72b01.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-<!----------cabecera de la pagina------------------>    
-    <header>
-<!-----------menu hamburguesa-------->      
-      <nav class="nav">
-          <a href="#nosotros" class="nav-link"> 
-              <div class="imagem"></div>
-          </a>
-          <div class="mobile-menu active"><!----funcion active para realizar el abre y cierre con javascript -------->
-              <div class="mobile-menu--button"></div>
-          </div>
-<!------------menu de navegación------------------>          
-          <ul class="nav-menu">
-              <li class="nav-item"><a href="/curriculum.html" class="nav-link active">Sobre</a></li>
-              <li class="nav-item"><a href="#nosotros" class="nav-link">Nosotros</a></li>
-              <li class="nav-item"><a href="#actores" class="nav-link">Actores</a></li>
-              <li class="nav-item"><a href="#peliculas" class="nav-link">Peliculas</a></li>
-              <li class="nav-item"><a href="/login.html" class="nav-link">Registro</a></li>
-          </ul>
-      </nav>
-    </header>
-  
-      <!----section de la imagen hero---> 
-      <section class="hero" id="inicio">       
-        <h1 class="hero__title">            
-            Llevando emoción a su hogar
-        </h1>     
-        <p class="hero__text">
-          Hollywood las crea y nosotros te las mostramos.
-        </p>         
-      </section>
-        <!-------Comienzo del container con los cards--------------->
-      <div class="container-card " id="nosotros">
-        <!-------Primer card------------>  
-        <div class="card" >
-          <img src="./img/img1.png" alt="Foto">
-          <h4>
-              Nuestros inicios
-          </h4>
-          <p>
-              Nacimos en la decada de los 00, en la ciudad de Caracas, Venezuela, viendo la necesidad
-              de ofrecerles a nuestros usuarios, momentos de diversión con familiares y amigos.
-          </p>
-        </div>
-        <!--------segundo card-------->
-      <div class="card">
-          <img src="./img/img2.png" alt="Foto">
-          <h4>
-              Misión
-          </h4>
-          <p>
-              Ofrecer una amplia selección de contenidos de entretenimiento innovadores y de
-              alta calidad a nuestros usuarios en todo el mundo, con un foco principal en la satisfacción del cliente.
-          </p>
-      </div>
-        <!--------tercer card-------->
-      <div class="card">
-          <img src="./img/img3.png" alt="Foto">
-          <h4>
-              Visión
-          </h4>
-          <p>
-              Ser el principal proveedor de entretenimiento en línea del mundo y Brindar
-              a nuestros usuarios una experiencia de entretenimiento sin interrupciones y altamente personalizada.
-          </p>
-      </div>
-      </div>  
-        
-      <!-----contenido  con fotos de los actores-->  
-    <div class="last_article">
-        <div class="last_article_content"></div>
-      <!-----imagenes con los actores-->
-      <div class="actores">       
-          <h2 id="actores">
-          Actores
-          </h2>
-        <div class="last_thumbs">
-          <a href="#Arnold Schwarzenegger">
-            <img src="./img/arnold.png" alt="Arnold Schwarzenegger"></a>
-          <a href="#Angelina Jolie">
-            <img src="./img/angelina.jpg" alt="Angelina Jolie"></a>
-          <a href="#Ben Afleck">
-            <img src="./img/ben.png" alt="Ben Afleck"></a>
-          <a href="#Brad Pitt">
-            <img src="./img/brad.png" alt="Brad Pitt"></a>
-          <a href="#Cameroon Diaz">
-            <img src="./img/diaz.png" alt="Cameroon Diaz"></a>
-          <a href="#Charlize Theron">
-            <img src="./img/theron.png" alt="Charlize Theron"></a>
-          <a href="#Leonardo Di Caprio">
-            <img src="./img/caprio.png" alt="Leonardo Di Caprio"></a>
-          <a href="#Silvester Stallone">
-            <img src="./img/stallone.png" alt="Silvester Stallone"></a>
-          <a href="#Kristen Stewart">
-            <img src="./img/stewart.png" alt="Kristen Stewart"></a>
-          <a href="#Ben Stiller">
-            <img src="./img/stiller.png" alt="Ben Stiller"></a>
-          <a href="#Robert De Niro">
-            <img src="./img/niro.png" alt="Robert De Niro"></a>
-          <a href="#Tom Hanks">
-            <img src="./img/hanks.png" alt="Tom Hanks"></a>
-        </div>
-      </div>
-
-<!-------------contenedor con todos los trailers y peliculas------------------->    
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Eduardo González</title>
+    <script src="https://kit.fontawesome.com/66c0f72b01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
     <div class="container">
-<!-----------contenedor con el titulo en h2 y el icono------->      
-        <div class="conten">
-            <h2><i class="fa-brands fa-youtube" style="color: #cf2020;"></i> ASSISTE LOS TRAILERS DE LAS MEJORES PELICULAS</h2>
+        <container class="left-side">
+            <div class="profileText">
+                <h2>Eduardo González<br><span>Desenvolvedor Front-End Jr.</span></h2>
+            </div>
+            <div class="contacInfo">
+                <h3 class="title">Informações de Contactos</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <span class="text">+55 61 996632450</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="text">eduardogonzalez.frontend@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-github"></i></span>
+                        <span class="text">EduardoV82</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-globe"></i></span>
+                        <span class="text">Vercel.com/eduardo82</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                        <span class="text">https://www.linkedin.com/in/eduardo-gonzalez-132750250/</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="text">Brasilia - DF - Brasil</span>
+                    </li>
+                </ul>
+            </div>
+        <div class="contacInfo education">
+            <h3 class="title">Education</h3>
+            <ul>
+                <li>
+                    <h2>Formação Academica</h2>
+                    <h3>Graduação em Recursos Humanos</h3>
+                    <h4>Instituto Universitario de Tecnologia Antonio Jose de Sucre - Venezuela - 02/2001 a 05/2004</h4>
+                </li>
+                <li>
+                    <h2>Cursos / Especializações</h2>
+                    <h3>Curso desenvolvimento web</h3>
+                    <h4>Codigo Pa'Lante - Eidos Global (2023).</h4>
+                </li>
+            </ul>
+            <div class="contacInfo language">
+                <h3 class="title">Idiomas</h3>
+                <ul>
+                    <li>
+                        <span class="text">Espanhol</span>
+                        <span class="percent">
+                            <div style="width: 100%;"></div>
+                        </span>
+
+                    </li>
+                    <li>
+                        <span class="text">Portugues</span>
+                        <span class="percent">
+                            <div style="width: 90%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Ingles</span>
+                        <span class="percent">
+                            <div style="width: 20%;"></div>
+                        </span>
+                    </li>
+                </ul>
+    </div>
         </div>
-<!------------comienzo del contenedor con los trailer y el titulo------------->                
-        <div class="grupo">
-<!-----------icono y h2 con el trailer---------------------------->          
-            <h2 class="title1" id="trailers"><i class="fa-solid fa-film" style="color: #cf2020;"></i> Trailers </h2>
-<!--------comienzo del contenedor con los trailers-------------------->          
-            <div class="contvideos">
-<!-----------comienza la galeria de videos con los trailers-------------->
-            <div class="video">
-              <video width="335" height="335" src="./videos/12 HORAS PARA EL FIN DEL MUNDO (Mira) - Trailer Oficial Doblado al Español.mp4"  controls muted poster="./img/logo-video.png"></video>
-            </div>                                         
-            <div class="video">
-              <video width="335" height="335" src="./videos/granizo.mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>
-            <div class="video">
-              <video width="335" height="335" src="./videos/BACK TO THE FUTURE 4 - Teaser Trailer (2024) Michael J. Fox, Christopher Lloyde Movie Concept.mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>                
-            <div class="video">
-              <video width="335" height="335" src="./videos/Ben 10_ La Pelicula (2023) - Trailer Oficial - Tom Holland.mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>
-            <div class="video">
-              <video width="335" height="335" src="./videos/INVASIÓN SECRETA Tráiler Español Latino (2023) Marvel.mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>
-            <div class="video">
-              <video width="335" height="335" src="./videos/TERMINATOR 7_ End Of War (2022) Official Trailer Teaser - Arnold Schwarzenegger.mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>
-            <div class="video">
-              <video width="335" height="335" src="./videos/VESPER Tráiler Español (2023).mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>  
-            <div class="video">
-              <video width="335" height="335" src="./videos/Duna.mp4" controls  muted poster="./img/logo-video.png"></video>
-            </div>
-            <div class="video">
-              <video width="335" height="335" src="./videos/MISIÓN DE RESCATE 2 Tráiler Español Latino 2 (2023) Chris Hemsworth.mp4"  controls  muted poster="./img/logo-video.png"></video>
-            </div>              
-          </div>           
-        </div>
-<!---comienza el contenedor con todas las peliculas completas, titulo e icono------------------->        
-        <div class="grupo2" id="peliculas">
-<!------titulo e icono de las peliculas completas---------->          
-              <h2 class="title1"> <i class="fa-solid fa-film" style="color: #cf2020;"></i> PELICULAS COMPLETAS</h2>
-<!------contenedor con todos los videos de las peliculas completas----------------->          
-          <div class="contvideos">      
-<!------comienzo de todas las peliculas completas----------------->            
-            <div class="video">
-              <iframe width="300" height="290" src="https://www.youtube.com/embed/-kVjYCiE-a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-              <iframe width="300" height="290" src="https://www.youtube.com/embed/1miQAwQpS3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-              <iframe width="300" height="290" src="https://www.youtube.com/embed/Ix1wB4SAPrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-              <iframe width="300" height="290" src="https://www.youtube.com/embed/QREVSQN0KZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>    
-          </div>
-        </div>
-    </div>  
-<!--comienzo del footer---------------------------------->    
-    <footer>
-<!-------div con los iconos de las redes sociales----------------------------->      
-        <div class="medios-sociales">
-            <i class="fa-brands fa-square-github" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-square-whatsapp" style="color: #ffffff;"></i>
-        </div>
-<!----contenedor con la linea animada y el nombre------------------------>          
-        <div class="line"></div>
-            <p class="copyright">
-            Eduardo González @ 2023
-            </p>
-    </footer> 
-    </div>               
-<!--------archivo javascript del formulario------------------------------------->            
-            <script src="/js/main.js"></script>
-            <script src="/js/mobile.js"></script>
-  </body>
+    </container>    
+        <div class="right-side">
+            <div class="about">
+                <h3 class="title2">Objetivos</h3>
+                <p>
+                    Front-End Developer, Desenvolvedor Front End
+                </p>
+                <h3 class="title2">Experiencia Professional</h3>
+                <ul>
+                    <li>
+                        <h2 class="h2">Bob's Brasil - 03/2023 até 06/2023 - 3 meses</h2>
+                        <h3 class="h3">Gerente Geral</h3>
+                        <h4 class="h4">Gestão de pessoas, treinamento de novos funcionarios, contagem de estoque, controle de CMV.</h4>
+                    </li>
+                    <li>
+                        <h2  class="h2">Burguer King Brasil - 04/2021 até 07/2022 - 1 ano e 3 meses</h2>
+                        <h3  class="h3">Gerente de Restaurante</h3>
+                        <h4  class="h4">Gestão de pessoas, trabalho em equipe, envio de relatorios ao departamento financieiro, supervisão das operações da loja.
+                        </h4>
+                    </li>
+                    <li>
+                        <h2  class="h2">American Burguer - 11/2017 até 01/2020 - 2 anos e 2 meses</h2>
+                        <h3  class="h3">Gerente de Restaurante</h3>
+                        <h4  class="h4">Gestão de pessoas, realização de pedidos, supervisão das operações da loja, conferencia de mercadoria.
+                        </h4>
+                    </li>
+                </ul>
+</body>
 </html>
